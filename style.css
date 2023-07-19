@@ -149,7 +149,8 @@ html {
   justify-content: center;
 }
 .about img {
-  max-width: 400px;
+  width: 400px;
+  max-width : 100% ; 
 }
 .about .content {
   width: 400px;
