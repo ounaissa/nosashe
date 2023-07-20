@@ -28,6 +28,16 @@ html {
   );
   ---main-padding: 80px;
 }
+
+::-webkit-scrollbar-thumb {
+  background-color: var(---second-color);
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body.hide::-webkit-scrollbar {
+  display: none;
+}
 /*conponent start */
 .container {
   padding-right: 15px;
