@@ -428,6 +428,7 @@ html {
   .contact .content {
     width: fit-content;
     margin: auto;
+    text-align : left ;
   }
 }
 
