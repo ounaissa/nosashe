@@ -78,6 +78,7 @@ fetch("https://api.github.com/users/ounaissa/repos")
           project_cont.removeChild(closeframe);
           project_cont.removeChild(projectView);
           cont.removeChild(overlay);
+          cont.removeChild(project_cont);
         };
         /* close iframe */
 
