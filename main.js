@@ -1,6 +1,15 @@
 document.querySelector(".nav i ").onclick = function () {
   this.classList.toggle("opened");
 };
+let links = document.querySelectorAll(".links ul li");
+links.forEach((e) => {
+  e.onclick = function () {
+    links.forEach((link) => {
+      link.classList.remove("active");
+    });
+    this.classList.add("active");
+  };
+});
 
 let skills = document.querySelectorAll(".skills .image");
 
