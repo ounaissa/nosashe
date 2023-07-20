@@ -161,6 +161,8 @@ body.hide::-webkit-scrollbar {
 .about img {
   width: 400px;
   max-width: 100%;
+    animation: up_and_down 3s infinite;
+
 }
 .about .content {
   width: 400px;
@@ -198,6 +200,16 @@ body.hide::-webkit-scrollbar {
 
 .about .content a:hover {
   transform: scale(1.1);
+}
+
+@keyframes up_and_down {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
 }
 @media (max-width: 767px) {
   .about .container {
