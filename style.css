@@ -231,14 +231,12 @@ body.hide::-webkit-scrollbar {
   padding-bottom: 80px;
   background-color: #eee;
 }
-.skills .section {
-  margin-bottom: 50px;
-}
 
 .skills .skill {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   margin: 20px 0;
 }
 .skills .skill .image {
