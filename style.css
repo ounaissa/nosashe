@@ -152,6 +152,8 @@ body.hide::-webkit-scrollbar {
 .about {
   padding-top: 80px;
   padding-bottom: 80px;
+  height: 100vh;
+  display : flex ; 
 }
 .about .container {
   display: flex;
@@ -167,6 +169,8 @@ body.hide::-webkit-scrollbar {
 .about .content {
   width: 400px;
   font-size: 20px;
+  margin-left : 50px;
+
 }
 .about .content h2 {
   color: var(---second-color);
