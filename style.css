@@ -289,22 +289,8 @@ body.hide::-webkit-scrollbar {
 .skills .current.showed {
   display: block;
 }
-.skills .frameworks,
-.skills .current {
-  display: none;
-}
-.skills .more {
-  padding: 10px 20px;
-  display: block;
-  width: fit-content;
-  margin: 20px;
-  border-radius: 30px;
-  background-color: var(---second-color);
-  color: white;
-  box-shadow: 0 0 10px #755bb457;
-  transition: 0.3s;
-  cursor: pointer;
-}
+
+
 
 .portfolio {
   padding-top: 80px;
