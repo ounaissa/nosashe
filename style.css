@@ -245,6 +245,7 @@ body.hide::-webkit-scrollbar {
   border: 1px solid white;
   padding: 10px;
   margin-right: 10px;
+  margin-bottom: 10px;
   border-radius: 6px;
   box-shadow: 0 0 10px #33333354;
   position: relative;
