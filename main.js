@@ -22,16 +22,6 @@ window.addEventListener("scroll", () => {
   }
 });
 
-document.querySelector(".skills .more").onclick = function () {
-  let framework = document.querySelector(".frameworks");
-  framework.classList.toggle("showed");
-  let current = document.querySelector(".current").classList.toggle("showed");
-  if (framework.classList.contains("showed")) {
-    this.innerHTML = "Show Less";
-  } else {
-    this.innerHTML = "See more details";
-  }
-};
 
 /* get templates from git hub  */
 let project = document.querySelectorAll(".project");
