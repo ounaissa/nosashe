@@ -180,6 +180,7 @@ body.hide::-webkit-scrollbar {
 }
 .about .content p {
   line-height: 1.6;
+  max-width : 100%;
 }
 .about .content p::selection,
 .about .content p span::selection {
