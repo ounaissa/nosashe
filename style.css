@@ -217,6 +217,9 @@ body.hide::-webkit-scrollbar {
   }
 }
 @media (max-width: 767px) {
+  .about {
+    display : block ;
+  }
   .about .container {
     display: block;
     text-align: center;
