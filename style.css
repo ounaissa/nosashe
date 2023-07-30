@@ -219,6 +219,7 @@ body.hide::-webkit-scrollbar {
 @media (max-width: 767px) {
   .about {
     display : block ;
+    padding-top : 0 ;
   }
   .about .container {
     display: block;
